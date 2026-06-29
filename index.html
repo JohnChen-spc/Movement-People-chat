@@ -15,7 +15,7 @@
             color: #fff;
             font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
             display: flex;
-            flex-direction: center;
+            flex-direction: column;
             align-items: center;
             justify-content: center;
             height: 100vh;
@@ -31,7 +31,6 @@
             height: 40px;
             border: 3px solid #333;
             border-top-color: #fff;
-            border up: 50%;
             border-radius: 50%;
             animation: spin 1s linear infinite;
         }
@@ -44,7 +43,9 @@
     <div class="logo">MOVEMENT PEOPLE</div>
     <div class="loading"></div>
     <script>
-        const whatsappLink = "https://wa.me/8615627224428?text=你好，我想了解Movement People「恐懼峰會·重置狀態」活動的細節，我已經準備好戰勝我的恐懼了。";
+        // 替换为你的WhatsApp消息直达链接
+        const whatsappLink = "https://wa.me/message/IAXB6GXGOAVZK1";
+        // 800毫秒后自动跳转
         setTimeout(() => {
             window.location.href = whatsappLink;
         }, 800);
